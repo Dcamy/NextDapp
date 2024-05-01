@@ -33,7 +33,7 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/blog" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Blog
+                  Plog
                 </Link>
               </li>
               <li>
@@ -42,8 +42,8 @@ export default function Header() {
                 </Link>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Support">
-                {/* 2nd level: hover */}
+              {/* <Dropdown title="Support">
+                 2nd level: hover
                 <li>
                   <Link href="/contact" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
                     Contact us
@@ -59,21 +59,21 @@ export default function Header() {
                     404
                   </Link>
                 </li>
-              </Dropdown>
+              </Dropdown>*/}
             </ul>
 
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              {/*<li>
+              <li>
                 <Link
-                  href="/signin"
+                  href="/blog/ProjectAIOS"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  Download iChain
                 </Link>
-              </li>*/}
+              </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="/blog/ProjectSGC" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   Connect Wallet
                 </Link>
               </li>

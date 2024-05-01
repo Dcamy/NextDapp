@@ -20,9 +20,9 @@ export const metadata = {
     "OI and AI": "Organic and artificial intelligences",
     "Intelligences": "General term for both organic and artificial intelligences involved in iChain"
   }`,
-  ogImage: 'https://example.com/path/to/image.jpg',
-  ogType: 'website',
-  twitterImage: 'https://example.com/path/to/image.jpg'
+  ogImage: 'https://next-dapp-typc.vercel.app/blog/ProjectDefenseWarriors',
+  ogType: 'https://next-dapp-typc.vercel.app/blog/ProjectDefenseWarriors',
+  twitterImage: 'https://next-dapp-typc.vercel.app/blog/ProjectDefenseWarriors'
 }
 
 

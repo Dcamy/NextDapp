@@ -29,7 +29,7 @@ export default function Footer() {
               {/* 2nd block */}
               <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Products</h6>
-                <ul>
+                {/*<ul>
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Web Studio</Link>
                   </li>
@@ -39,13 +39,13 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Programming Forms</Link>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
-                <ul>
+                {/*<ul>
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
                   </li>
@@ -61,7 +61,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
 
               {/* 4th block */}
@@ -69,19 +69,19 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link href="/tos" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms of Service</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
+                    <Link href="/pp" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link href="/ua" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">User Agreement</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
+                    <Link href="/dao" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Lagel Stuff</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link href="/aotd" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Articels of The DAO</Link>
                   </li>
                 </ul>
               </div>
@@ -135,7 +135,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; iChain. All rights, for public and private use are reserved.</div>
 
           </div>
 

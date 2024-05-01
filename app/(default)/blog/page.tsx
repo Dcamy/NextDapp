@@ -6,9 +6,28 @@ import PostTags from '@/components/post-tags'
 import PostItem from '@/components/post-item'
 
 export const metadata = {
-  title: 'Blog - Open PRO',
-  description: 'Page description',
+  title: 'Plog - iChain',
+  description: 'Explore iChain’s Plogs: a marketplace of transformative projects driving decentralized innovation. Discover how each project contributes to a sustainable digital future and community empowerment.',
+  aiContext: 'iChain’s Plog page serves as a dynamic display of ongoing projects, each detailed through Project Blogs that highlight their aims, technological underpinnings, and contribution to blockchain and decentralized solutions.',
+  aiSubjectMatter: 'Decentralized Systems, Blockchain Innovation, Community Empowerment, Digital Sovereignty',
+  aiIntent: 'To showcase iChain’s active and upcoming projects, providing visitors with insights into the innovative and transformative efforts undertaken by the community.',
+  aiPageDictionary: `{
+    "Project AI OS": "An AI operating system enhancing PC control and data privacy",
+    "Project Defense Warriors": "A strategic game focusing on cybersecurity and network defense",
+    "Project Embed": "A two-tier affiliate program aimed at community growth without traditional pyramid structures",
+    "Project Meme Trader": "An AI-driven platform for trading meme coins, leveraging market trends for optimal investments",
+    "Project Nomad": "Facilitates cryptocurrency to fiat conversion seamlessly across borders",
+    "Project SGC": "SynergiCoin, a foundational asset for staking, loans, and life insurance within iChain",
+    "Project Social Impact": "Supports grassroots NGOs and non-profits, driving societal change through blockchain",
+    "Project Spartan": "Provides enhanced digital security, cloaking users in anonymity",
+    "Project Stabilize": "Introduces SGCS, a stablecoin tied to life insurance for long-term wealth preservation",
+    "Project Trust and Estate": "Blockchain-based solutions for secure, transparent estate planning"
+  }`,
+  ogImage: 'https://next-dapp-typc.vercel.app/blog/ProjectOverviewImage', // An image representing the collection of projects
+  ogType: 'website',
+  twitterImage: 'https://next-dapp-typc.vercel.app/blog/ProjectOverviewImage'
 }
+
 
 import Newsletter from '@/components/newsletter'
 
