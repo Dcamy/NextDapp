@@ -19,8 +19,12 @@ export const metadata = {
     "SGCS": "SynergiCoin Stable, tied to USD reflecting current living costs",
     "OI and AI": "Organic and artificial intelligences",
     "Intelligences": "General term for both organic and artificial intelligences involved in iChain"
-  }`
+  }`,
+  ogImage: 'https://example.com/path/to/image.jpg',
+  ogType: 'website',
+  twitterImage: 'https://example.com/path/to/image.jpg'
 }
+
 
 
 import HeroAbout from '@/components/hero-about'
