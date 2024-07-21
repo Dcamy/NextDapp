@@ -7,7 +7,7 @@ export default function Process() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4" data-aos="fade-up">Empower the Network, Enrich Your Legacy</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Embark on a journey where every action fuels progress and every contribution etches your mark on the future. Fund projects, share data, or lend compute power — every investment enriches your legacy and nurtures the ecosystem.</p>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Passionaitly crowdsourced technologies will be able to out evolve our systems of inslavement</p>
           </div>
 
           {/* Items */}
